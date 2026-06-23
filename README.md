@@ -31,7 +31,7 @@ ModuleAndPlugin/
             ├── Temporary.Build.cs
             ├── Public/
             │   ├── Temporary.h        # FTemporaryModule : IModuleInterface
-            │   └── CharacterData.h    # UCharacterData : UObject (도전 과제)
+            │   └── CharacterData.h    # UCharacterData : UObject
             └── Private/
                 ├── Temporary.cpp      # Startup/Shutdown + IMPLEMENT_MODULE
                 └── CharacterData.cpp
@@ -64,7 +64,7 @@ Third Person 템플릿의 기본 게임 모듈. `Test`, `Temporary` 모듈을 **
 
 ---
 
-## 도전 과제 — `UCharacterData`
+## `UCharacterData`
 
 Temporary 플러그인에 `UObject` 자식 클래스를 만들어 캐릭터 데이터 저장용으로 사용합니다.
 
